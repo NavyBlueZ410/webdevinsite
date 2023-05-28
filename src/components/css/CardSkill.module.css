@@ -1,0 +1,36 @@
+.boxIcon{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: #454445;
+    border: 1px dashed #454445;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.boxIcon span{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #454545;
+}
+.boxIcon:hover{
+    border: 1px solid #454445;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+.boxIcon:hover .logo{
+    background-color: #FF6000;
+    color: #fff;
+    transition: 0.3s ease;
+}
+.boxIcon:hover span{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    transition: 0.3s ease;
+}

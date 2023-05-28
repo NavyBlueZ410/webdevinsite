@@ -1,0 +1,58 @@
+.packgateContentCard{
+    width: 300px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    height: 550px;
+    border: 1px dashed #454445;
+}
+.packgateContentCard h2{
+    text-align: center;
+}
+.packgateContentCard h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: #FF6000;
+}
+.detailBox{
+    padding: 0 1rem;
+}
+.detailBox p{
+    margin-top: 1rem;
+    text-align: center;
+}
+.buttonDetail{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    display: grid;
+    border: none;
+    background-color: #FF6000;
+    color: #fff;
+    display: block;
+    width: 80%;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transform: translate(-50%);
+    margin-bottom: 2rem;
+}
+.packgateContentCard:hover {
+    transform: scale(1.1);
+    border: 1px solid #454445;
+    transition: 0.3s ease;
+}
+.packgateContentCard:hover h2{
+    font-size: 2rem;
+    transition: 0.3s ease;
+}
+.packgateContentCard:hover h1{
+    font-size: 4rem;
+    transition: 0.3s ease;
+}
+.buttonDetail:hover{
+    cursor: pointer;
+    background-color: #aa4507;
+    transition: 0.3s ease;
+}

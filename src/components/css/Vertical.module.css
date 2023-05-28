@@ -1,0 +1,11 @@
+.imgContentVertical{
+    position: relative;
+    padding: 6rem 0;
+}
+.imgContentVertical img{
+    position: absolute;
+    max-width: 300px;
+    display: block;
+    top: -4rem;
+    left: 5rem;
+}

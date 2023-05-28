@@ -1,0 +1,62 @@
+.contentHeader{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    text-align: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+}
+.contentHeader img{
+    position: absolute;
+    display: block;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+}
+.boxHeader h1{
+    font-size: 3rem;
+}
+.boxHeader h3{
+    font-size: 2rem;
+    color: #454545;
+}
+.titleSkill{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.contentCard{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1rem;
+    margin: 2rem;
+}
+.imgContentCard{
+    position: relative;
+    padding: 2rem 0;
+}
+.imgContentCard img{
+    position: absolute;
+    max-width: 300px;
+    display: block;
+    top: -7rem;
+    right: 2rem;
+}
+.contentCardPackgate{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    padding: 2rem 0;
+}
+.contentAbout{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+.aboutRight img{
+    width: 100%;
+    display: block;
+}
