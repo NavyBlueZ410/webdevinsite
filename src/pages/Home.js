@@ -7,10 +7,12 @@ import styles from './css/Home.module.css'
 import Typewriter from 'typewriter-effect';
 import CardSkill from '../components/CardSkill';
 import { FaReact,FaPhp,FaHtml5,FaCss3,FaJsSquare } from "react-icons/fa";
-import { BsFiletypeSql,BsGithub } from "react-icons/bs";
+import { BsFiletypeSql,BsGithub,BsMapFill } from "react-icons/bs";
 import { FiFigma } from "react-icons/fi";
 import Vertical from '../components/Vertical'
 import CardPackgate from '../components/CardPackgate'
+import Input from '../components/Input'
+import TextArea from '../components/TextArea'
 
 function Home() {
   return (
@@ -58,12 +60,34 @@ function Home() {
           <h1 className={styles.titleSkill}>About</h1>
           <div className={styles.contentAbout}>
             <div className={styles.aboutLeft}>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+                <h1 className={styles.titleAbout}>Title</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for  </p>
+                <button className={styles.buttonReadMore}>Read More...</button>
             </div>
             <div className={styles.aboutRight}>
                 <img src={imgAbout} alt='' />
             </div>
           </div>
+          <div className={styles.contactContent}>
+            <div className={styles.leftContect}>
+                <h1>Contact</h1>
+                <div className={styles.boxTextContact}>
+                    <div className={styles.logoContentContect}>
+                      <BsMapFill className={styles.logoContect}/>
+                    </div>
+                    <span>9 / 99 หมู่ 9 ต.ท่าโพธิ์ อ.เมือง จ.พิษณุโลก 65000</span>
+                </div>
+            </div>
+            <div className={styles.rightContact}>
+              <h1>Send a Message</h1>
+              <div className={styles.boxInputName}>
+                <Input placeholder={"FirstName"}/>
+                <Input placeholder={"LastName"}/>
+              </div>
+              <Input placeholder={"Email"}/>
+              <TextArea placeholder={"Detail....."}/>
+            </div>                 
+          </div>     
         </div>
     </>
   )

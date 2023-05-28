@@ -55,8 +55,72 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 1rem;
+    margin: 4rem 0;
 }
 .aboutRight img{
     width: 100%;
     display: block;
+}
+.buttonReadMore{
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #FF6000;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+.aboutRight{
+    display: flex;
+    align-items: center;
+}
+.aboutRight img{
+    width: 100%;
+    display: block;
+}
+.contactContent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+.leftContect{
+    background-color: #454545;
+    padding: 0rem 2rem;
+}
+.rightContact{
+    padding: 0rem 2rem;
+}
+.boxTextContact{
+    display: flex;
+    align-items: center;
+}
+.boxTextContact span{
+    margin-left: 1rem;
+} 
+.logoContentContect{
+    background-color: #FF6000;
+    padding: 1rem;
+    border-radius: 0.5rem;  
+}
+.logoContentContect .logoContect{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.leftContect h1{
+    color:#fff;
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+}
+.rightContact h1{
+    margin: 0 0 1rem 0;
+    font-size: 3rem;    
+}
+.boxTextContact span{
+    color: #fff;
+}
+.boxInputName{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
 }
